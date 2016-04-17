@@ -14,3 +14,16 @@ Using Vagrant Multi-machine with Ansible provision to replicate a distributed to
 * HAProxy Logging http://cbonte.github.io/haproxy-dconv/configuration-1.7.html#8
 * HAProxy http-check expect + Spring Boot Actuator Health check http://cbonte.github.io/haproxy-dconv/configuration-1.7.html#4-http-check%20expect https://github.com/rafaelpsouza/spring-boot-jersey-multi-project
 
+## Run
+``` vagrant up ```
+
+# Example requests
+``` GET http://192.168.80.3/example/v1/items ```
+``` GET http://192.168.80.3/example/v1/items/2 ```
+
+# HAProxy Statistics
+
+``` http://192.168.80.3:2020/ 
+user: admin
+pass: admin
+```
