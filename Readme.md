@@ -18,12 +18,14 @@ Using Vagrant Multi-machine with Ansible provision to replicate a distributed to
 ``` vagrant up ```
 
 # Example requests
-``` GET http://192.168.80.3/example/v1/items ```
-``` GET http://192.168.80.3/example/v1/items/2 ```
+``` 
+GET http://192.168.80.3/example/v1/items 
+GET http://192.168.80.3/example/v1/items/2
 
 # HAProxy Statistics
 
-``` http://192.168.80.3:2020/ 
+``` 
+http://192.168.80.3:2020/ 
 user: admin
 pass: admin
 ```
