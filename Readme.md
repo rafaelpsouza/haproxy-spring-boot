@@ -2,7 +2,7 @@
 
 
 ## Goal: 
-Validate interactions and configurations between HAProxy and  Spring Boot REST service.
+Validate interactions and configurations between HAProxy and a Spring Boot service.
 
 ## How: 
 Using Vagrant Multi-machine with Ansible provision to replicate a distributed topology.
