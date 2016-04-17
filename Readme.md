@@ -21,6 +21,7 @@ Using Vagrant Multi-machine with Ansible provision to replicate a distributed to
 ``` 
 GET http://192.168.80.3/example/v1/items 
 GET http://192.168.80.3/example/v1/items/2
+```
 
 # HAProxy Statistics
 
