@@ -1,5 +1,4 @@
-# Vagrant Multi-machine + Ansible for HAProxy + Spring Boot Spike
-
+# Vagrant Multi-machine + Ansible for HAProxy + Spring Boot
 
 ## Goal: 
 Validate interactions and configurations between HAProxy and a Spring Boot service.
