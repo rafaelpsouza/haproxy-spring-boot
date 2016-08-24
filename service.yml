@@ -13,7 +13,6 @@
 
   - name: Set licence seen
     shell: /bin/echo debconf shared/accepted-oracle-license-v1-1 seen true | /usr/bin/debconf-set-selections
-    sudo: yes
 
   - name: Ensure Latest Oracle Java 8 is present
     apt: name=oracle-java8-installer state=latest update_cache=yes
